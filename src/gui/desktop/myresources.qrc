@@ -1,0 +1,5 @@
+<RCC>
+    <qresource>
+        <file>snake_record.txt</file>
+    </qresource>
+</RCC>
