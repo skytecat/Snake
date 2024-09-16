@@ -9,15 +9,15 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    ../../../brick_game/snake/snake_controller.cc \
+    ../../backend/snake_controller.cc \
     main.cpp \
-    ../../../brick_game/snake/snake_model.cc \
+    ../../backend/snake_model.cc \
     mainwindow.cpp
 
 HEADERS += \
-    ../../../brick_game/snake/snake.h \
-    ../../../brick_game/snake/snake_controller.h \
-    ../../../brick_game/snake/snake_model.h \
+    ../../backend/snake.h \
+    ../../backend/snake_controller.h \
+    ../../backend/snake_model.h \
     mainwindow.h
 
 FORMS += \
