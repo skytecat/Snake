@@ -15,23 +15,23 @@ void SnakeView::GameLoop() {
 
 void SnakeView::NewRecord() {
   controller->SetRecord(controller->GetScore());
-  std::fstream file("gui/cli/record.txt");
+  std::fstream file("gui/cli/record_cli.txt");
   if (file.is_open()) {
     file << controller->GetRecord();
     file.close();
   } else {
-    throw std::runtime_error("File record.txt opening error");
+    throw std::runtime_error("File record_cli.txt opening error");
   }
 }
 void SnakeView::ReadRecord() {
-  std::fstream file("gui/cli/record.txt");
+  std::fstream file("gui/cli/record_cli.txt");
   if (file.is_open()) {
     int rec = 0;
     file >> rec;
     controller->SetRecord(rec);
     file.close();
   } else {
-    throw std::runtime_error("File record.txt opening error");
+    throw std::runtime_error("File record_cli.txt opening error");
   }
 }
 
