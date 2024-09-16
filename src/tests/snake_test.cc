@@ -1,4 +1,4 @@
-#include "../brick_game/snake/snake_model.h"
+#include "../backend/snake_model.h"
 #include "gtest/gtest.h"
 #include "iostream"
 
