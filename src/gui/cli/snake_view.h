@@ -1,7 +1,7 @@
 #ifndef _BRICK_GAME_SNAKE_SNAKE_VIEW_H_
 #define _BRICK_GAME_SNAKE_SNAKE_VIEW_H_
 
-#include "../../brick_game/snake/snake_controller.h"
+#include "../../backend/snake_controller.h"
 
 namespace s21 {
 class SnakeController;
