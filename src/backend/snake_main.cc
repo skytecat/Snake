@@ -1,4 +1,4 @@
-#include "../../gui/cli/snake_view.h"
+#include "../gui/cli/snake_view.h"
 
 int main() {
   s21::SnakeModel model;
