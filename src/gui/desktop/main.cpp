@@ -8,7 +8,7 @@
 #include <QTimer>
 #include <QWidget>
 
-#include "../../../brick_game/snake/snake_controller.h"
+#include "../../backend/snake_controller.h"
 #include "mainwindow.h"
 
 namespace s21 {
