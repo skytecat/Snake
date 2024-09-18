@@ -26,3 +26,10 @@ gcov_report: clean
 
 clean:
 	rm -rf snake test *.gc* coverage report *.info build tetris
+
+brew:
+	cd
+	curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh
+
+lcov:
+	brew install lcov
